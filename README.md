@@ -28,7 +28,7 @@ Practicar el flujo colaborativo en Git (ramas, issues, PRs, revisiones) contribu
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/Riwi-io-Medellin/muro-colaborativo-html-css.git
+   git clone https://github.com/San1000-Ark/muro-colaborativo-html-css.git
    cd muro-colaborativo-html-css
    ```
 
