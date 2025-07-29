@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +15,10 @@
         <a href="#"><img src="./assets/img/riwi_logo.webp" alt="Logo Riwi" class="logo"></a>
         <h1>Muro de Principios</h1>
         <h2>Entrenamiento en desarrollo de software</h2>
+        <a class="logo" href="index.html"><img src="assets/img/riwi_logo.webp" alt="riwi_logo"></a>
+        <h1 class="title">Muro de Principios</h1>
+        <h2 class="subtitle">Entrenamiento en desarrollo de software.</h2>
+        <h2>Otro  subtitulo</h2>
     </header>
 
     <!-- Coder 2: Nav -->
@@ -81,7 +86,109 @@
             </audio>
         </section>
 
-    </main>
+<!-- Coder 8 -->
+<figure>
+    <img src="assets/img/git-diagrama.png" alt="Diagrama de Git" class="responsive-img">
+    <figcaption>Diagrama explicativo del flujo de trabajo en Git.</figcaption>
+</figure>
+     
+<!-- Coder 17 -->
+<section>
+    <h2>Preguntas Frecuentes</h2>
+    <details>
+        <summary>¿Qué es Git?</summary>
+        <p>Git es un sistema de control de versiones distribuido para manejar proyectos.</p>
+    </details>
+    <details>
+        <summary>¿Para qué sirve GitHub?</summary>
+        <p>GitHub permite alojar proyectos Git en la nube y colaborar con otros desarrolladores.</p>
+    </details>
+</section>
+
+
+
+<!-- Coder 9 -->
+<video controls poster="assets/img/poster_video.jpg" width="400">
+    <source src="assets/video/git_tutorial.mp4" type="video/mp4">
+    Tu navegador no soporta el video. Puedes <a href="assets/video/git_tutorial.mp4">descargarlo aquí</a>.
+</video>
+
+<!-- Coder 10 -->
+<section>
+    <h2>Audio introductorio</h2>
+    <p>Escucha esta breve introducción sobre la historia de Git.</p>
+    <audio controls>
+        <source src="assets/audio/git_intro.mp3" type="audio/mpeg">
+        Tu navegador no soporta el audio.
+    </audio>
+</section>
+
+<!-- Coder 11 -->
+<form>
+    <h2>Contáctanos</h2>
+    <label>Nombre: <input type="text" required></label><br>
+    <label>Email: <input type="email" required></label><br>
+    <label>Mensaje: <textarea required></textarea></label><br>
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Coder 12 -->
+<section>
+    <h2>Tabla de Precios</h2>
+    <table class="responsive-table">
+        <thead>
+            <tr><th>Servicio</th><th>Precio</th><th>Duración</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Consultoría</td><td>$200.000</td><td>2 horas</td></tr>
+            <tr><td>Desarrollo Web</td><td>$1.200.000</td><td>15 días</td></tr>
+            <tr><td>Marketing Digital</td><td>$800.000</td><td>30 días</td></tr>
+        </tbody>
+    </table>
+</section>
+
+<!-- Coder 13 -->
+<aside>
+    <h2>Enlaces útiles</h2>
+    <ul class="custom-list">
+        <li><a href="#">Documentación Git</a></li>
+        <li><a href="#">Curso Git Básico</a></li>
+        <li><a href="#">Plataformas de Repositorios</a></li>
+        <li><a href="#">Buenas prácticas</a></li>
+    </ul>
+</aside>
+
+<!-- Coder 14 -->
+<section>
+    <h2>Pasos para iniciar en Git</h2>
+    <ol class="custom-ol">
+        <li>Instalar Git en tu sistema</li>
+        <li>Configurar tu nombre y correo</li>
+        <li>Crear un repositorio local</li>
+        <li>Realizar commits y push</li>
+    </ol>
+</section>
+
+<!-- Coder 15 -->
+<article>
+    <h2>Glosario Técnico</h2>
+    <dl class="glosario">
+        <dt>Commit</dt>
+        <dd>Registro de cambios realizado en el proyecto.</dd>
+        <dt>Repositorio</dt>
+        <dd>Carpeta donde se almacena el código fuente y su historial.</dd>
+        <dt>Branch</dt>
+        <dd>Línea alternativa de desarrollo dentro de un repositorio.</dd>
+    </dl>
+</article>
+
+<!-- Coder 16 -->
+<blockquote class="blockquote styled-quote">
+    “Talk is cheap. Show me the code.”<br>
+    <cite>- Linus Torvalds</cite>
+</blockquote>
+
+
 
     <!-- Coder 7: Aside -->
     <aside class="sidebar">
@@ -95,7 +202,23 @@
 
     <!-- Coder 6: Footer -->
     <footer class="site-footer">
-        <div class="social">
+
+
+
+        <div class="virtualClock">
+            <h2>Current Time</h2>
+            <p class="date"></p>
+            <p class="time"></p>
+        </div>
+
+        <div id="Job32">
+            <button id="btn">
+                CLICK HERE
+            </button>
+        </div>
+
+        <p id="copyright">Copyright (c) 2025 Riwi.io Oficial</p><!--coder 6-->
+              <div class="social">
             <a href="#"><img src="" width="30" alt="Instagram"></a>
             <a href="#"><img src="./img/logo_whatsapp.png" width="30" alt="WhatsApp"></a>
         </div>
@@ -103,7 +226,13 @@
             Medellín, Colombia — contacto@riwi.io
         </address>
         <p>&copy; 2025 Riwi.io Oficial</p>
-    </footer>
+
+    </footer><!--coder 6-->
+
+    <script type="module" src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>
 </html>
+
+
